@@ -1,0 +1,133 @@
+/* General Styling */
+body {
+  font-family: 'Bebas Neue', Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  background-color: #fff7e6; /* Pancake batter background */
+  color: #6b4e3d; /* Syrupy brown */
+}
+
+/* Layout */
+.container {
+  display: flex;
+}
+
+/* Sidebar */
+.sidebar {
+  width: 250px;
+  background-color: #f5e6cc; /* Soft cream */
+  padding: 20px;
+  height: 100vh;
+  font-family: 'Poppins', sans-serif;
+}
+
+.sidebar h2 {
+  font-size: 18px;
+  margin-bottom: 10px;
+  color: #a6785e; /* Toasted brown */
+}
+
+.sidebar ul {
+  list-style: none;
+  padding: 0;
+}
+
+.sidebar ul li {
+  margin-bottom: 10px;
+}
+
+.sidebar button {
+  width: 100%;
+  padding: 10px;
+  border: none;
+  background-color: #e0b899; /* Light syrup */
+  color: #6b4e3d; /* Syrupy brown */
+  text-align: left;
+  cursor: pointer;
+  border-radius: 5px;
+}
+
+.sidebar button.active,
+.sidebar button:hover {
+  background-color: #d8a876; /* Toasted caramel */
+}
+
+/* Main Content */
+.main-content {
+  flex: 1;
+  padding: 20px;
+}
+
+.search-bar {
+  margin-bottom: 20px;
+}
+
+.search-bar input {
+  width: 100%;
+  padding: 10px;
+  border: none;
+  border-radius: 5px;
+  background-color: #fdebd0; /* Pancake batter */
+  color: #6b4e3d;
+}
+
+/* Cards */
+.cards {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
+  gap: 20px;
+  margin-top: 20px;
+}
+
+.card {
+  background-color: #f5e6cc; /* Soft cream */
+  border-radius: 10px;
+  padding: 15px;
+  text-align: center;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1); /* Light shadow */
+}
+
+.card img {
+  max-width: 100%;
+  border-radius: 10px;
+  margin-bottom: 10px;
+}
+
+.card h3 {
+  font-size: 26px;
+  margin: 10px 0;
+  color: #6b4e3d; /* Syrupy brown */
+}
+
+.card p {
+  font-size: 20px;
+  margin: 10px 0;
+  color: #a6785e; /* Toasted brown */
+}
+
+.card button {
+  padding: 10px;
+  border: none;
+  background-color: #ffd4a3; /* Maple syrup */
+  color: #6b4e3d; /* Syrupy brown */
+  cursor: pointer;
+  border-radius: 5px;
+}
+
+.card button:hover {
+  background-color: #f9c78b; /* Golden syrup */
+}
+
+/* Tab Styling */
+.cards {
+  display: none;
+}
+
+.cards.active {
+  display: grid;
+}
+
+/* Active Tab Styling */
+button.active {
+  background-color: #d8a876;
+}
