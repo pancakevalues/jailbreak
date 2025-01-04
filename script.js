@@ -1,8 +1,10 @@
 // Get references to the buttons and content divs
 const vehiclesTab = document.getElementById('vehicles-tab');
 const spoilersTab = document.getElementById('spoilers-tab');
+const rimsTab = document.getElementById('rims-tab');
 const vehiclesContent = document.getElementById('vehicles');
 const spoilersContent = document.getElementById('spoilers');
+const rimsContent = document.getElementById('rims');
 
 // Function to switch tabs
 function switchTab(event, activeTab, activeContent, inactiveContent) {
