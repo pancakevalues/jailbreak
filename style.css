@@ -1,6 +1,6 @@
 body {
     margin: 0;
-    font-family: 'Poppins', sans-serif;
+    font-family: 'Montserrat', sans-serif;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -10,53 +10,14 @@ body {
     backdrop-filter: blur(8px);
 }
 
-.container {
-    text-align: center;
-    background: rgba(0, 0, 0, 0.6);
-    padding: 2rem;
-    border-radius: 10px;
-    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.5);
-}
-
 .title {
     color: #ffd700;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 700;
     font-size: 2.5rem;
     margin-bottom: 1rem;
 }
 
 .description {
-    color: #ffffff;
-    font-size: 1.2rem;
-    margin-bottom: 2rem;
-}
-
-.button {
-    display: inline-block;
-    padding: 0.8rem 2rem;
-    font-size: 1.2rem;
-    color: #ffffff;
-    background: #007bff;
-    border: none;
-    border-radius: 5px;
-    text-decoration: none;
-    transition: all 0.3s ease;
-    cursor: pointer;
-}
-
-.button:hover {
-    background: #0056b3;
-    box-shadow: 0 4px 10px rgba(0, 123, 255, 0.5);
-}
-
-.discord-link {
-    display: block;
-    margin-top: 1.5rem;
-    color: #7289da;
-    font-size: 1rem;
-    text-decoration: none;
-    transition: color 0.3s ease;
-}
-
-.discord-link:hover {
-    color: #ffffff;
+    font-weight: 400;
 }
