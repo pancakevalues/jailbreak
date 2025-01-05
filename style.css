@@ -5,7 +5,7 @@ body {
     justify-content: center;
     align-items: center;
     height: 100vh;
-    background: url('https://your-image-link.com/image.jpg') no-repeat center center/cover;
+    background: url('https://media.discordapp.net/attachments/1323218358190997518/1325338563629416471/1000.png?ex=677b6d39&is=677a1bb9&hm=c18be26336a3a91b5cb319aa27d7d904c12b2d89ae48a9451263a32a4fd16c86&=&format=webp&quality=lossless&width=840&height=473') no-repeat center center/cover;
     overflow: hidden;
     backdrop-filter: blur(8px);
 }
